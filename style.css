@@ -1,0 +1,119 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans";
+}
+h1{
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+     position: relative;
+     font-family: "Open Sans";
+}
+
+#weather-app{
+   justify-items: center;
+   /* align-content: center; */
+   height: 100vh;
+   /* background-color: rgb(42, 67, 137); */
+   /* background-image: url(image/6772137-uhd_3840_2160_30fps.mp4); */
+   background-image: url(image/pexels-filirovska-8257801.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+#weather-app::before{
+    content: "";
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   justify-items: center;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.container{
+    /* padding-bottom: 50px; */
+    padding-top: 85px;
+}
+
+input{
+    /* padding-left: 10px; */
+    padding: 9px;
+    font-size: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    position: relative;
+    transition: 0.1s linear;
+}
+input:hover{
+    /* padding-left: 10px; */
+    padding: 11px;
+    font-size: 40px;
+    font-weight: 100;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    /* position: relative; */
+    /* transition: 0.2 linear; */
+}
+#btn{
+    padding: 9px;
+    /* padding-top: 1px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 100;
+    font-size: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+     position: relative;
+}
+
+#btn:hover{
+    background-color: rgb(254, 254, 157);
+}
+.main-container{
+    /* border: 1px solid black; */
+    padding: 20px;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 20px; */
+    justify-content: space-around;
+    /* align-items: center; */
+    display: flex;
+    color: white;
+    /* margin-right: 20px; */
+    margin-right: 110px;
+     position: relative;
+}
+
+.iMg{
+    height: 400px;
+}
+.details{
+    padding-top: 110px;
+    font-size: 40px;
+    /* margin-right: 20px; */
+}
+
+
