@@ -29,10 +29,12 @@ async function gateData() {
     console.log(data.location.region);
 
     const condition = data.current.condition.text;
+
     const divOne = document.createElement("div");
     divOne.setAttribute("class", "view");
     const image = document.createElement("img");
     image.setAttribute("class", "iMg");
+   
 
     if (condition === "Moderate or heavy rain with thunder") {
       image.src = "./image/rainy-5.svg";

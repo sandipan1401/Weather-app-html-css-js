@@ -16,7 +16,7 @@ body{
     font-family: "Open Sans";
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 100;
     text-align: center;
     color: white;
@@ -31,7 +31,9 @@ h1{
    height: 100vh;
    /* background-color: rgb(42, 67, 137); */
    /* background-image: url(image/6772137-uhd_3840_2160_30fps.mp4); */
-   background-image: url(image/pexels-filirovska-8257801.jpg);
+   background-image: url(image/beautiful-clouds-blue-sky.jpg);
+   /* background-repeat: no-repeat; */
+   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
@@ -48,7 +50,7 @@ h1{
    background-repeat: no-repeat;
    background-size: cover;
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 .container{
@@ -95,10 +97,10 @@ input:hover{
 }
 .main-container{
     /* border: 1px solid black; */
-    padding: 20px;
+    padding: 60px;
     /* padding-bottom: 20px; */
     /* margin-bottom: 20px; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* align-items: center; */
     display: flex;
     color: white;
@@ -108,11 +110,25 @@ input:hover{
 }
 
 .iMg{
-    height: 400px;
+    height: 298px;
+    border: 1px solid white;
+    border-radius: 23px;
+    margin-left: 110px;
+    position: relative;
 }
 .details{
-    padding-top: 110px;
+    /* padding-top: 110px; */
+    padding: 30px;
+    color: white;
     font-size: 40px;
+    height: 298px;
+    border: 1px solid white;
+    border-radius: 23px;
+    justify-items: center;
+    align-content: center ;
+    margin-left: 20px;
+    position: relative;
+    
     /* margin-right: 20px; */
 }
 
